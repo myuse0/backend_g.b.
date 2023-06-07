@@ -1,0 +1,38 @@
+<style>
+@import url("hello.css");/*문서 최상단에 적용해야함*/
+@import 'hello.css';
+@media (max-width:1290px){
+          body {
+
+            background-color: palevioletred;
+            }
+        }
+        @media (max-width:600px){
+          body {
+
+            background-color: rgb(112, 216, 114);
+            }
+        }
+        
+        h1{
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+        span{
+           p:5px;
+        /*justify-content:flex-start, flex-end, center, space-between, space-around.  요소:ㅁ, 공간:ㅇ라고 했을때 각각 ㅁㅁㅁㅇㅇ ㅇㅇㅁㅁㅁ ㅇㅁㅁㅁㅇ ㅁㅇㅁㅇㅁ ㅇㅁㅇㅁㅇㅁㅇ*/
+        /*주 축을 기준으로 정렬, flex시 패딩 사라짐*/
+        /*aligh-items: stretch, flex-start, flex-end, center*/
+        /*교차축을 기준으로 정렬 */
+    }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Emotion</h1>
+    <span>HAPPY</span>
+    <span>SAD</span>
+    <span>LOVE</span>
+</body>
+</html>

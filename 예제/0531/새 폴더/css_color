@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>탐라국 입춘국</title>
+    <style>
+        #container{
+            width:600px;
+            margin:0 auto;
+        }
+
+        table,th,td {
+            border:1px solid #222;
+            border-collapse: collapse;
+            
+        }
+        tr,td{
+            padding:10px;
+        }
+
+        h1{
+            rgba
+        }
+
+        li{
+            /*16진수*/
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+<h1>탐라국 입춘국<h1>
+
+
+
+
+
+<table border="1">
+    <tr><td>입춘 천냥 국수</td><td>11:00 ~ 16:00</td></tr>
+
+        </table>
+
+
+    </div>
+</body>
+</html>

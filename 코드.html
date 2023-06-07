@@ -1,0 +1,91 @@
+<head>
+    
+	<title>코드</title>
+    <style>
+#static { position: static; }
+#relative-1 { position: relative; }
+#relative-2 {
+position:relative; /*포지셔닝-absolute*/
+left: 100px;
+top: -50px;
+}
+#fixed {
+width: 100px; /* 포지셔닝-fixed */
+height: 100px;
+background-color: #222;
+position: fixed;
+right: 30px;
+top: 30px;
+} 
+*{ box-sizing: border-box; } /* 모든 요소에 테두리까지 포함한 너빗값 지정*/
+nav ul { list-style: none; }
+nav ul li {
+display: inline-block; /*인라인 레벨 요소와 블록 레벨 요소 모두 지정 */
+padding: 20px; 
+margin: 0 20px; 
+border: 1px solid #222; 
+box-sizing: :border-box;
+
+.book1{
+  list-style-type:disc;/*ul용-disc square circle, none  ol용-decimal, decimal-leading-zero, lower-roman, upper-roman, lower-alpha 또는 lower-latin, upper-alpah 또는 upper-latin, none*/
+/*ul용  list-style-image: <url(이미지 파일 경로)>*/
+/*불릿,번호를 들여쓰거나 내어쓰기 list-style-position: inside/outside  list-style:lower-alpha inside;등으로 줄일 수 있음*/
+}
+
+/*위치 관련 style 코드*/
+.p{
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  text-align: center;
+  /*flex-direction: column;*/
+
+
+}
+    </style>
+</head>
+
+<body>
+  <p>본문내용 그중에 <span>분리할</span> 내용</p>  
+  <input type="button" value="공지 창 열기" onclick="window.open('notice.html')">
+
+  <p id="static">Qui laborum anim ea veniam et.</p>
+  <p id="relative-2">Aute fugiat culpa eu magna duis velit. Aliquip id labore eiusmod irure Lorem laborum adipisicing irure exercitation eiusmod consequat eu laboris tempor. </p>
+  <p id="relative-2">Nostrud irure proident aliquip aliquip. Pariatur occaecat qui quis ea adipisicing irure ad pariatur consequat. Nostrud occaecat ad aliqua magna veniam nulla.Qui laborum anim ea veniam et.</p>
+  <p id="fixed">Nisi est adipisicing officia aliquip do exercitation reprehenderit non sint esse eu. Consectetur officia nostrud nostrud occaecat aute consequat sunt. Elit ex laboris minim incididunt ullamco reprehenderit sit reprehenderit eu anim excepteur ullamco tempor excepteur. Ipsum cillum quis labore culpa laboris anim exercitation laboris ad esse minim dolore.</p>
+  <ul class="book1">
+    <li>list1</li>
+    <li>list2</li>
+  </ul>
+  <img src="images/apple.jpg" alt="가정용 꿀사과 -  질좋은 사과를 저렴하게 즐겨보세요 alt는 이미지 대체 텍스트 입니다.">  
+  
+
+  
+  table,tr,td {
+    border:1px solid #222;
+    border-collapse: collapse;
+
+}
+tr,td {
+         padding:10px;
+}
+  <table>
+    <tr><td>입춘 천냥 국수</td><td>11:00 ~ 16:00</td><td>제주 향토 음식</td></tr>  
+    <tr><td>입춘 주전부리</td><td>10:30 ~ 17:00</td><td>관덕정 마당</td></tr> 
+    <tr><td> 차 나눔</td><td>  10:30 ~ 17:00</td><td>관덕정 마당</td></tr> 
+ </table>
+</body>
+
+
+
+<footer>    
+  <section id="bottomMenu">
+    <ul>
+      <li><a href="#">회사 소개</a></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">여행약관</a></li>
+      <li><a href="#">사이트맵</a></li>
+      <p>test </p>
+    </ul>
+  </section>   
+</footer>  

@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    display: inline-block;/*inline도 ok*/
+    padding:20px;
+    margin:0 20px;
+    border: 1px solid #222;
+}
+
+/*.container{
+    display: flex;
+    justify-content: center;
+}   한번에 하는 방법, 일괄로 묶여있어서 추후에 관리하기 어렵다*/
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.nave {
+    margin: 0 auto;
+}

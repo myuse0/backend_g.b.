@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p, div:first-child{/*p중에 첫번째 child를 가르키는것*/
+color: lawngreen;
+        }
+        p:last-child{
+            color:red;
+            background-color:black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>:first-child</p>
+        <p>:first-child가 아닙니다.</p>
+    </div>
+    <div>
+        <h2>p태그가 아니라 선택되지 않았습니다.</h2>
+    </div>
+</body>
+</html>

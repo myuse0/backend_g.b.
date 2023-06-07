@@ -1,0 +1,50 @@
+body{
+    background-color:
+}
+
+
+.banner{
+    background-image: url("space-pattern.jpg");
+    display:flex;
+justify-content: center;
+}
+
+.profile{
+    width: 8rem;
+    height: 8rem;
+    background-image: url("space-pattern.jpg");
+    background-size: 120px;
+    border-radius:50%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+    transform:translateY(50%);
+}
+
+.profile:hover{
+
+}
+
+
+.name{
+    text-align: : center;
+    padding-top:60px;
+}
+.follow-btn{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justiry-content: center;
+}
+.follow-btn button{
+font-size: medium;
+font-weight: bold;
+background-color:#ffd01a;
+border:none;
+padding:1rem;
+outline:none;
+border-radius: 50px;
+}
+
+.follow-btn button:hover{
+    
+background-color:#efb10a;
+}

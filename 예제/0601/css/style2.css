@@ -1,0 +1,23 @@
+html,body{
+    height:100%;
+}
+
+
+body {
+
+    display: flex;    
+    /*justify-content: center;*/
+    align-items: stretch;
+}
+div {
+    /* display속성의 값 종류: bolock,inline,flow,grid,flex */
+        
+   width: 200px;
+   height: 200px;
+   background-color: tomato;
+}
+
+#second {
+
+    background-color: seagreen;
+}

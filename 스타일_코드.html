@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            font-size:10px;
+            font-family: "맑은 고딕", 돋움, 굴림
+        }
+        p,h1{
+            text-align:center;
+            color:blue;
+            left margin:10px;
+            font-style:italic;/*normal, italic*/
+            font-weight:normal;/*normal, bold, bolder, lighter, 100~900. 400=normal, 700=bold*/
+            font-size:0.8em;
+            text-align:center;/*start, end, left, right, center, justiry, match-parent*/
+        }
+        .accent{
+        
+        }
+        .heading{
+            width:100%;
+            height:100px;
+            background:#222;
+            color:rgb(255,255,255);
+            text-align:center;
+            line-height:100px;/*줄 간격*/
+            text-decoration:none;/*none, underline, overline, line-through*/
+            text-shadow:1px 1px 1px coral;
+            text-transform: none;/*capitalize, uppercase, lowercase, full-width*/
+            letter-spacing: normal/*자간 보통 em단위,*/
+        }
+        #container{
+            margin:10px auto;
+            padding: 10px;
+            border:1px solid black;
+        }
+        
+      @font-face {
+        font-family: 'Ostrich';  /* 폰트 이름 */
+        src: local('Ostrich Sans'), 
+              url('fonts/ostrich-sans-bold.woff') format('woff'), 
+              url('fonts/ostrich-sans-bold.ttf') format('truetype'), 
+              url('fonts/ostrich-sans-bold.svg') format('svg');   /*사용자 시스템에 폰트 있는지 확인, 가장 가벼운 woff부터 선언, 마지막에 가장 무거운 ttf 선언*/
+      p {
+	 font-family:'Ostrich', sans-serif; /* 웹 폰트 지정 */
+        font-size:30px; /* 글자 크기 */
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="images/cat.jpg">
+    <div>
+        <h1>교배과일</h1>
+        <p>레드향은 한라봉과 <span class="accent">귤을</span> 교배한 것이다</p>
+    </div>
+</body>
+</html>
